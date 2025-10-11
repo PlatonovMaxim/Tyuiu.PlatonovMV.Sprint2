@@ -11,10 +11,10 @@ namespace Tyuiu.PlatonovMV.Sprint2.Task6.V4.Test
         {
             var ds = new DataService();
 
-            Assert.AreEqual("Пики", ds.FindCardSuit(1));
-            Assert.AreEqual("Трефы", ds.FindCardSuit(2));
-            Assert.AreEqual("Бубны", ds.FindCardSuit(3));
-            Assert.AreEqual("Червы", ds.FindCardSuit(4));
+            Assert.AreEqual("пики", ds.FindCardSuit(1));
+            Assert.AreEqual("трефы", ds.FindCardSuit(2));
+            Assert.AreEqual("бубны", ds.FindCardSuit(3));
+            Assert.AreEqual("червы", ds.FindCardSuit(4));
 
             Assert.AreEqual("Некорректное значение! Введите число от 1 до 4", ds.FindCardSuit(7));
         }
