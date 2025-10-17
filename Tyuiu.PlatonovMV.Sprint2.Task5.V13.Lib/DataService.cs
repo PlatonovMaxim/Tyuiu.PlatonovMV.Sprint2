@@ -31,7 +31,7 @@ namespace Tyuiu.PlatonovMV.Sprint2.Task5.V13.Lib
                     daysInMonth = 30;
                     break;
                 case 2:
-                    // год невисокосный
+                    // год невисокосный в феврале 28 дней
                     daysInMonth = 28;
                     break;
                 default:
@@ -50,6 +50,7 @@ namespace Tyuiu.PlatonovMV.Sprint2.Task5.V13.Lib
                     year++;
                 }
             }
+            // по новой если больше чем надо и прибавляется
 
             return $"{day:D2}.{month:D2}.{year}";
         }

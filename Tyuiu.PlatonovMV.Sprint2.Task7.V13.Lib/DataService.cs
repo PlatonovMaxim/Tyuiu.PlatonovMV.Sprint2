@@ -20,3 +20,4 @@ namespace Tyuiu.PlatonovMV.Sprint2.Task7.V13.Lib
 
 // 1 4 четверть
 // треугольник
+//
